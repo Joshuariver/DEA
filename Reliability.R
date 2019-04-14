@@ -82,6 +82,7 @@ psych::alpha(d)$total$std.alpha
 
 
 # Split-half reliability (adjusted using the Spearman–Brown prophecy formula)
+# 네 번 째 방법
 
 # Calculating total score...
 score_e <- rowMeans(d[, c(TRUE, FALSE)])  # with even items
@@ -96,6 +97,7 @@ r
 
 
 # Composite reliability
+# 다섯 번 째 방법
 
 library(lavaan)
 
